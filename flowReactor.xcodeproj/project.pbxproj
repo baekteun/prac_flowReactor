@@ -19,6 +19,17 @@
 		46CFE4362727A1FC00E6B827 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4352727A1FC00E6B827 /* LoginService.swift */; };
 		46CFE43B2727BAF100E6B827 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE43A2727BAF100E6B827 /* Models.swift */; };
 		46CFE43D2727BB4000E6B827 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE43C2727BB4000E6B827 /* NetworkManager.swift */; };
+		46CFE4402727CAE000E6B827 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE43F2727CAE000E6B827 /* LoginFlow.swift */; };
+		46CFE4432727D59300E6B827 /* StepExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4422727D59300E6B827 /* StepExtensions.swift */; };
+		46CFE4472727E79200E6B827 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4462727E79200E6B827 /* LoginVC.swift */; };
+		46CFE44A2727E7A500E6B827 /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4492727E7A500E6B827 /* LoginReactor.swift */; };
+		46CFE44D2727E9EE00E6B827 /* baseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE44C2727E9EE00E6B827 /* baseVC.swift */; };
+		46CFE4512727EDBD00E6B827 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4502727EDBD00E6B827 /* HomeVC.swift */; };
+		46CFE4532727EE1C00E6B827 /* baseTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4522727EE1C00E6B827 /* baseTVC.swift */; };
+		46CFE4552727EE3500E6B827 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4542727EE3500E6B827 /* HomeCell.swift */; };
+		46CFE4572727EF6400E6B827 /* UICellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4562727EF6400E6B827 /* UICellExtensions.swift */; };
+		46CFE4592727F23C00E6B827 /* HomeReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE4582727F23C00E6B827 /* HomeReactor.swift */; };
+		46CFE45B2727F58000E6B827 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE45A2727F58000E6B827 /* UIViewControllerExtensions.swift */; };
 		AB9050BFB688547E91C70E82 /* Pods_flowReactor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F295070F37F8E82D6F62735 /* Pods_flowReactor.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +48,17 @@
 		46CFE4352727A1FC00E6B827 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		46CFE43A2727BAF100E6B827 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		46CFE43C2727BB4000E6B827 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		46CFE43F2727CAE000E6B827 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
+		46CFE4422727D59300E6B827 /* StepExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepExtensions.swift; sourceTree = "<group>"; };
+		46CFE4462727E79200E6B827 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		46CFE4492727E7A500E6B827 /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
+		46CFE44C2727E9EE00E6B827 /* baseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseVC.swift; sourceTree = "<group>"; };
+		46CFE4502727EDBD00E6B827 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		46CFE4522727EE1C00E6B827 /* baseTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseTVC.swift; sourceTree = "<group>"; };
+		46CFE4542727EE3500E6B827 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		46CFE4562727EF6400E6B827 /* UICellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICellExtensions.swift; sourceTree = "<group>"; };
+		46CFE4582727F23C00E6B827 /* HomeReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReactor.swift; sourceTree = "<group>"; };
+		46CFE45A2727F58000E6B827 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		5C7802F01F3DBDB0A950F3EE /* Pods-flowReactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowReactor.debug.xcconfig"; path = "Target Support Files/Pods-flowReactor/Pods-flowReactor.debug.xcconfig"; sourceTree = "<group>"; };
 		8F295070F37F8E82D6F62735 /* Pods_flowReactor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flowReactor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA676B547CEBA541EC3A6353 /* Pods-flowReactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowReactor.release.xcconfig"; path = "Target Support Files/Pods-flowReactor/Pods-flowReactor.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +110,7 @@
 				46CFE4382727BAD600E6B827 /* Common */,
 				46CFE4372727A24C00E6B827 /* Network */,
 				46CFE42E2727A18D00E6B827 /* Services */,
+				46CFE4442727E78200E6B827 /* Scene */,
 				46CFE4262727A08B00E6B827 /* Flows */,
 				46CFE42527279DBB00E6B827 /* App */,
 			);
@@ -140,6 +163,7 @@
 		46CFE42A2727A12C00E6B827 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
+				46CFE43E2727CACF00E6B827 /* Login */,
 				46CFE42B2727A13800E6B827 /* AppFlow.swift */,
 			);
 			path = Flow;
@@ -167,6 +191,8 @@
 		46CFE4382727BAD600E6B827 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				46CFE44B2727E9E900E6B827 /* Base */,
+				46CFE4412727D57C00E6B827 /* Extension */,
 				46CFE4392727BADA00E6B827 /* Model */,
 			);
 			path = Common;
@@ -178,6 +204,69 @@
 				46CFE43A2727BAF100E6B827 /* Models.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		46CFE43E2727CACF00E6B827 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE43F2727CAE000E6B827 /* LoginFlow.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		46CFE4412727D57C00E6B827 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE4422727D59300E6B827 /* StepExtensions.swift */,
+				46CFE4562727EF6400E6B827 /* UICellExtensions.swift */,
+				46CFE45A2727F58000E6B827 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		46CFE4442727E78200E6B827 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE44E2727EDB100E6B827 /* Main */,
+				46CFE4452727E78B00E6B827 /* Login */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		46CFE4452727E78B00E6B827 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE4462727E79200E6B827 /* LoginVC.swift */,
+				46CFE4492727E7A500E6B827 /* LoginReactor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		46CFE44B2727E9E900E6B827 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE44C2727E9EE00E6B827 /* baseVC.swift */,
+				46CFE4522727EE1C00E6B827 /* baseTVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		46CFE44E2727EDB100E6B827 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE44F2727EDB700E6B827 /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		46CFE44F2727EDB700E6B827 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				46CFE4502727EDBD00E6B827 /* HomeVC.swift */,
+				46CFE4542727EE3500E6B827 /* HomeCell.swift */,
+				46CFE4582727F23C00E6B827 /* HomeReactor.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		6EFAA9C656D9236BDF90A0A1 /* Pods */ = {
@@ -314,12 +403,23 @@
 				46CFE4322727A1B700E6B827 /* ServiceProvider.swift in Sources */,
 				46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */,
 				46CFE43D2727BB4000E6B827 /* NetworkManager.swift in Sources */,
+				46CFE4432727D59300E6B827 /* StepExtensions.swift in Sources */,
 				46CFE42C2727A13800E6B827 /* AppFlow.swift in Sources */,
+				46CFE44D2727E9EE00E6B827 /* baseVC.swift in Sources */,
+				46CFE4572727EF6400E6B827 /* UICellExtensions.swift in Sources */,
 				46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */,
+				46CFE4402727CAE000E6B827 /* LoginFlow.swift in Sources */,
 				46CFE4302727A19700E6B827 /* BaseService.swift in Sources */,
+				46CFE4512727EDBD00E6B827 /* HomeVC.swift in Sources */,
+				46CFE44A2727E7A500E6B827 /* LoginReactor.swift in Sources */,
+				46CFE4532727EE1C00E6B827 /* baseTVC.swift in Sources */,
+				46CFE45B2727F58000E6B827 /* UIViewControllerExtensions.swift in Sources */,
+				46CFE4592727F23C00E6B827 /* HomeReactor.swift in Sources */,
 				46CFE4292727A09700E6B827 /* SampleStep.swift in Sources */,
+				46CFE4472727E79200E6B827 /* LoginVC.swift in Sources */,
 				46CFE43B2727BAF100E6B827 /* Models.swift in Sources */,
 				46CFE4342727A1DA00E6B827 /* NetworkService.swift in Sources */,
+				46CFE4552727EE3500E6B827 /* HomeCell.swift in Sources */,
 				46CFE4362727A1FC00E6B827 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
