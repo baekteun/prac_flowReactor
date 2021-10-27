@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46BAFEF8272A134000E13313 /* MiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEF7272A134000E13313 /* MiddleVC.swift */; };
+		46BAFEFA272A136E00E13313 /* MiddleReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEF9272A136E00E13313 /* MiddleReactor.swift */; };
 		46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE40E27279CB600E6B827 /* AppDelegate.swift */; };
 		46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE41027279CB600E6B827 /* SceneDelegate.swift */; };
 		46CFE41827279CB800E6B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CFE41727279CB800E6B827 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46BAFEF7272A134000E13313 /* MiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleVC.swift; sourceTree = "<group>"; };
+		46BAFEF9272A136E00E13313 /* MiddleReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleReactor.swift; sourceTree = "<group>"; };
 		46CFE40B27279CB600E6B827 /* flowReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CFE40E27279CB600E6B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CFE41027279CB600E6B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -282,6 +286,8 @@
 		46CFE45C2727F73900E6B827 /* Middle */ = {
 			isa = PBXGroup;
 			children = (
+				46BAFEF7272A134000E13313 /* MiddleVC.swift */,
+				46BAFEF9272A136E00E13313 /* MiddleReactor.swift */,
 			);
 			path = Middle;
 			sourceTree = "<group>";
@@ -426,6 +432,7 @@
 				46CFE4572727EF6400E6B827 /* UICellExtensions.swift in Sources */,
 				46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */,
 				46CFE4402727CAE000E6B827 /* LoginFlow.swift in Sources */,
+				46BAFEF8272A134000E13313 /* MiddleVC.swift in Sources */,
 				46CFE4302727A19700E6B827 /* BaseService.swift in Sources */,
 				46CFE4622727F9CB00E6B827 /* UIViewExtensions.swift in Sources */,
 				46CFE4512727EDBD00E6B827 /* HomeVC.swift in Sources */,
@@ -441,6 +448,7 @@
 				46CFE4602727F81900E6B827 /* HomeDetailReactor.swift in Sources */,
 				46CFE45E2727F77100E6B827 /* HomeDetailVC.swift in Sources */,
 				46CFE4362727A1FC00E6B827 /* LoginService.swift in Sources */,
+				46BAFEFA272A136E00E13313 /* MiddleReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
