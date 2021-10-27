@@ -11,6 +11,8 @@
 		46BAFEFA272A136E00E13313 /* MiddleReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEF9272A136E00E13313 /* MiddleReactor.swift */; };
 		46BAFEFC272A183100E13313 /* MiddleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEFB272A183100E13313 /* MiddleDetailVC.swift */; };
 		46BAFEFE272A185300E13313 /* MiddleDetailReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */; };
+		46BAFF01272A1ABE00E13313 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF00272A1ABE00E13313 /* SettingVC.swift */; };
+		46BAFF03272A1AE700E13313 /* SettingReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF02272A1AE700E13313 /* SettingReactor.swift */; };
 		46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE40E27279CB600E6B827 /* AppDelegate.swift */; };
 		46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE41027279CB600E6B827 /* SceneDelegate.swift */; };
 		46CFE41827279CB800E6B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CFE41727279CB800E6B827 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 		46BAFEF9272A136E00E13313 /* MiddleReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleReactor.swift; sourceTree = "<group>"; };
 		46BAFEFB272A183100E13313 /* MiddleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDetailVC.swift; sourceTree = "<group>"; };
 		46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDetailReactor.swift; sourceTree = "<group>"; };
+		46BAFF00272A1ABE00E13313 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		46BAFF02272A1AE700E13313 /* SettingReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingReactor.swift; sourceTree = "<group>"; };
 		46CFE40B27279CB600E6B827 /* flowReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CFE40E27279CB600E6B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CFE41027279CB600E6B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46BAFEFF272A1AB400E13313 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				46BAFF00272A1ABE00E13313 /* SettingVC.swift */,
+				46BAFF02272A1AE700E13313 /* SettingReactor.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		46CFE40227279CB600E6B827 = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +284,7 @@
 			children = (
 				46CFE44F2727EDB700E6B827 /* Home */,
 				46CFE45C2727F73900E6B827 /* Middle */,
+				46BAFEFF272A1AB400E13313 /* Setting */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -438,6 +452,7 @@
 				46CFE4572727EF6400E6B827 /* UICellExtensions.swift in Sources */,
 				46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */,
 				46CFE4402727CAE000E6B827 /* LoginFlow.swift in Sources */,
+				46BAFF01272A1ABE00E13313 /* SettingVC.swift in Sources */,
 				46BAFEF8272A134000E13313 /* MiddleVC.swift in Sources */,
 				46CFE4302727A19700E6B827 /* BaseService.swift in Sources */,
 				46CFE4622727F9CB00E6B827 /* UIViewExtensions.swift in Sources */,
@@ -455,6 +470,7 @@
 				46CFE4552727EE3500E6B827 /* HomeCell.swift in Sources */,
 				46CFE4602727F81900E6B827 /* HomeDetailReactor.swift in Sources */,
 				46CFE45E2727F77100E6B827 /* HomeDetailVC.swift in Sources */,
+				46BAFF03272A1AE700E13313 /* SettingReactor.swift in Sources */,
 				46CFE4362727A1FC00E6B827 /* LoginService.swift in Sources */,
 				46BAFEFA272A136E00E13313 /* MiddleReactor.swift in Sources */,
 			);
