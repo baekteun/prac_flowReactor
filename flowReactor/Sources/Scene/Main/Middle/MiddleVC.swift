@@ -48,7 +48,8 @@ final class MiddleVC: baseVC{
     // MARK: - Helpers
     override func configureVC() {
         super.configureVC()
-        
+        addView()
+        setLayout()
     }
 }
 

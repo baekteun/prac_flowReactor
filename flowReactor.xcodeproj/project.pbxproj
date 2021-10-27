@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		46BAFEF8272A134000E13313 /* MiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEF7272A134000E13313 /* MiddleVC.swift */; };
 		46BAFEFA272A136E00E13313 /* MiddleReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEF9272A136E00E13313 /* MiddleReactor.swift */; };
+		46BAFEFC272A183100E13313 /* MiddleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEFB272A183100E13313 /* MiddleDetailVC.swift */; };
+		46BAFEFE272A185300E13313 /* MiddleDetailReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */; };
 		46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE40E27279CB600E6B827 /* AppDelegate.swift */; };
 		46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE41027279CB600E6B827 /* SceneDelegate.swift */; };
 		46CFE41827279CB800E6B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CFE41727279CB800E6B827 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		46BAFEF7272A134000E13313 /* MiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleVC.swift; sourceTree = "<group>"; };
 		46BAFEF9272A136E00E13313 /* MiddleReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleReactor.swift; sourceTree = "<group>"; };
+		46BAFEFB272A183100E13313 /* MiddleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDetailVC.swift; sourceTree = "<group>"; };
+		46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDetailReactor.swift; sourceTree = "<group>"; };
 		46CFE40B27279CB600E6B827 /* flowReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CFE40E27279CB600E6B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CFE41027279CB600E6B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -288,6 +292,8 @@
 			children = (
 				46BAFEF7272A134000E13313 /* MiddleVC.swift */,
 				46BAFEF9272A136E00E13313 /* MiddleReactor.swift */,
+				46BAFEFB272A183100E13313 /* MiddleDetailVC.swift */,
+				46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */,
 			);
 			path = Middle;
 			sourceTree = "<group>";
@@ -438,8 +444,10 @@
 				46CFE4512727EDBD00E6B827 /* HomeVC.swift in Sources */,
 				46CFE44A2727E7A500E6B827 /* LoginReactor.swift in Sources */,
 				46CFE4532727EE1C00E6B827 /* baseTVC.swift in Sources */,
+				46BAFEFC272A183100E13313 /* MiddleDetailVC.swift in Sources */,
 				46CFE45B2727F58000E6B827 /* UIViewControllerExtensions.swift in Sources */,
 				46CFE4592727F23C00E6B827 /* HomeReactor.swift in Sources */,
+				46BAFEFE272A185300E13313 /* MiddleDetailReactor.swift in Sources */,
 				46CFE4292727A09700E6B827 /* SampleStep.swift in Sources */,
 				46CFE4472727E79200E6B827 /* LoginVC.swift in Sources */,
 				46CFE43B2727BAF100E6B827 /* Models.swift in Sources */,
