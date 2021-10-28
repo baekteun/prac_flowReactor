@@ -10,7 +10,7 @@ import RxFlow
 import RxCocoa
 import ReactorKit
 
-final class HomeVC: UIViewController{
+final class HomeVC: baseVC{
     var disposeBag: DisposeBag = .init()
     
     private let tableView = UITableView().then{
@@ -18,10 +18,33 @@ final class HomeVC: UIViewController{
         $0.rowHeight = 50
         $0.separatorStyle = .none
     }
+    
+    init(with reactor: HomeReactor){
+        super.init(nibName: nil, bundle: nil)
+        self.reactor = reactor
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     deinit{
         print("\(type(of: self)): \(#function)")
     }
     
+    override func configureVC() {
+        super.configureVC()
+    }
+}
+
+private extension HomeVC{
+    func setUI(){
+        self.title = "Home"
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints {
+            $0.edges.equalTo(view.safeArea.edges)
+        }
+    }
 }
 
 extension HomeVC: View{

@@ -13,6 +13,9 @@
 		46BAFEFE272A185300E13313 /* MiddleDetailReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */; };
 		46BAFF01272A1ABE00E13313 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF00272A1ABE00E13313 /* SettingVC.swift */; };
 		46BAFF03272A1AE700E13313 /* SettingReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF02272A1AE700E13313 /* SettingReactor.swift */; };
+		46BAFF06272A1EE600E13313 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF05272A1EE600E13313 /* MainFlow.swift */; };
+		46BAFF08272A1F5400E13313 /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF07272A1F5400E13313 /* HomeFlow.swift */; };
+		46BAFF0A272A22BF00E13313 /* MiddleFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF09272A22BF00E13313 /* MiddleFlow.swift */; };
 		46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE40E27279CB600E6B827 /* AppDelegate.swift */; };
 		46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE41027279CB600E6B827 /* SceneDelegate.swift */; };
 		46CFE41827279CB800E6B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CFE41727279CB800E6B827 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		46BAFEFD272A185300E13313 /* MiddleDetailReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDetailReactor.swift; sourceTree = "<group>"; };
 		46BAFF00272A1ABE00E13313 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		46BAFF02272A1AE700E13313 /* SettingReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingReactor.swift; sourceTree = "<group>"; };
+		46BAFF05272A1EE600E13313 /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		46BAFF07272A1F5400E13313 /* HomeFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
+		46BAFF09272A22BF00E13313 /* MiddleFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleFlow.swift; sourceTree = "<group>"; };
 		46CFE40B27279CB600E6B827 /* flowReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CFE40E27279CB600E6B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CFE41027279CB600E6B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +107,16 @@
 				46BAFF02272A1AE700E13313 /* SettingReactor.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		46BAFF04272A1ECD00E13313 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				46BAFF05272A1EE600E13313 /* MainFlow.swift */,
+				46BAFF07272A1F5400E13313 /* HomeFlow.swift */,
+				46BAFF09272A22BF00E13313 /* MiddleFlow.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		46CFE40227279CB600E6B827 = {
@@ -191,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				46CFE42B2727A13800E6B827 /* AppFlow.swift */,
+				46BAFF04272A1ECD00E13313 /* Main */,
 				46CFE43E2727CACF00E6B827 /* Login */,
 			);
 			path = Flow;
@@ -444,6 +461,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CFE4322727A1B700E6B827 /* ServiceProvider.swift in Sources */,
+				46BAFF06272A1EE600E13313 /* MainFlow.swift in Sources */,
+				46BAFF0A272A22BF00E13313 /* MiddleFlow.swift in Sources */,
 				46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */,
 				46CFE43D2727BB4000E6B827 /* NetworkManager.swift in Sources */,
 				46CFE4432727D59300E6B827 /* StepExtensions.swift in Sources */,
@@ -452,6 +471,7 @@
 				46CFE4572727EF6400E6B827 /* UICellExtensions.swift in Sources */,
 				46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */,
 				46CFE4402727CAE000E6B827 /* LoginFlow.swift in Sources */,
+				46BAFF08272A1F5400E13313 /* HomeFlow.swift in Sources */,
 				46BAFF01272A1ABE00E13313 /* SettingVC.swift in Sources */,
 				46BAFEF8272A134000E13313 /* MiddleVC.swift in Sources */,
 				46CFE4302727A19700E6B827 /* BaseService.swift in Sources */,
