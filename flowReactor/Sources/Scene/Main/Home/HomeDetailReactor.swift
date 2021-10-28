@@ -38,7 +38,7 @@ extension HomeDetailReactor{
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
         case .toMiddleDidTap:
-            steps.accept(SampleStep.middleIsRequired)
+            steps.accept(SampleStep.middledIsRequiredAgain)
             return .empty()
         }
     }

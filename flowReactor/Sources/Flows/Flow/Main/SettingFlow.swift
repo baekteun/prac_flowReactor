@@ -36,8 +36,18 @@ final class SettingFlow: Flow{
     
     // MARK: - Navigate
     func navigate(to step: Step) -> FlowContributors {
-        guard let step = step.asSampleStep else { return }
-        
+        guard let step = step.asSampleStep else { return .none }
+        switch step{
+        case .settingIsRequired:
+            return coordinateToSetting()
+        case .loginIsRequired:
+            return .end(forwardToParentFlowWithStep: SampleStep.loginIsRequired)
+        case let .alert(message):
+            return navigateToAlertScreen(message: message)
+            
+        default:
+            return .none
+        }
     }
 }
 

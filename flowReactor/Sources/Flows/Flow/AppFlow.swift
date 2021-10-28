@@ -73,6 +73,11 @@ final class AppFlow: Flow{
         return .one(flowContributor: .contribute(withNextPresentable: flow, withNextStepper: nextStep))
     }
     private func coordinateMainVC() -> FlowContributors{
-        
+        let flow = MainFlow(with: provider)
+        Flows.use(flow, when: .created) { [unowned self] root in
+            rootWindow.rootViewController = root
+        }
+        let next = OneStepper(withSingleStep: SampleStep.mainTabbarIsRequired)
+        return .one(flowContributor: .contribute(withNextPresentable: flow, withNextStepper: next))
     }
 }

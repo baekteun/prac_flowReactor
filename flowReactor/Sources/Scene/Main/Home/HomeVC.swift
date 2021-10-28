@@ -34,6 +34,7 @@ final class HomeVC: baseVC{
     
     override func configureVC() {
         super.configureVC()
+        setUI()
     }
 }
 
