@@ -16,6 +16,7 @@
 		46BAFF06272A1EE600E13313 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF05272A1EE600E13313 /* MainFlow.swift */; };
 		46BAFF08272A1F5400E13313 /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF07272A1F5400E13313 /* HomeFlow.swift */; };
 		46BAFF0A272A22BF00E13313 /* MiddleFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF09272A22BF00E13313 /* MiddleFlow.swift */; };
+		46BAFF0C272A258A00E13313 /* SettingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAFF0B272A258A00E13313 /* SettingFlow.swift */; };
 		46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE40E27279CB600E6B827 /* AppDelegate.swift */; };
 		46CFE41127279CB600E6B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFE41027279CB600E6B827 /* SceneDelegate.swift */; };
 		46CFE41827279CB800E6B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CFE41727279CB800E6B827 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		46BAFF05272A1EE600E13313 /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
 		46BAFF07272A1F5400E13313 /* HomeFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
 		46BAFF09272A22BF00E13313 /* MiddleFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleFlow.swift; sourceTree = "<group>"; };
+		46BAFF0B272A258A00E13313 /* SettingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFlow.swift; sourceTree = "<group>"; };
 		46CFE40B27279CB600E6B827 /* flowReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CFE40E27279CB600E6B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CFE41027279CB600E6B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				46BAFF05272A1EE600E13313 /* MainFlow.swift */,
 				46BAFF07272A1F5400E13313 /* HomeFlow.swift */,
 				46BAFF09272A22BF00E13313 /* MiddleFlow.swift */,
+				46BAFF0B272A258A00E13313 /* SettingFlow.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				46BAFF06272A1EE600E13313 /* MainFlow.swift in Sources */,
 				46BAFF0A272A22BF00E13313 /* MiddleFlow.swift in Sources */,
 				46CFE40F27279CB600E6B827 /* AppDelegate.swift in Sources */,
+				46BAFF0C272A258A00E13313 /* SettingFlow.swift in Sources */,
 				46CFE43D2727BB4000E6B827 /* NetworkManager.swift in Sources */,
 				46CFE4432727D59300E6B827 /* StepExtensions.swift in Sources */,
 				46CFE42C2727A13800E6B827 /* AppFlow.swift in Sources */,

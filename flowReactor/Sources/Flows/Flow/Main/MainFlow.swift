@@ -22,5 +22,5 @@ final class MainFlow: Flow{
     
     let rootViewController: UITabBarController = .init()
     private let provider: ServiceProviderType
-    private let homeFlow: HomeFlo
+    private let homeFlow: HomeFlow
 }
